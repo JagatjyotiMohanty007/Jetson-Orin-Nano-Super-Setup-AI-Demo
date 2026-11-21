@@ -103,20 +103,22 @@ python src/ai_demo.py --epochs 150 --samples 4000 --seed 42
 ```
 
 **Example output (illustrative, not a measured Jetson benchmark):**
-
-```text
-PyTorch: <installed version>
-PyTorch CUDA build: <installed CUDA version>
+```
+(jupyter-env) jagatjyotimohanty@jagatjyotimohanty:~/Research$ /home/jagatjyotimohanty/Research/jupyter-env/bin/python /home/jagatjyotimohanty/Research/AgenticAI/ai_demo.py
+PyTorch: 2.15.0+cu132
+PyTorch CUDA build: 13.2
 CUDA available: True
 Compute device: cuda
 GPU: Orin
-Epoch   1/100 | loss: ...
-...
-Test accuracy: ...
-Training time: ... s
+Epoch   1/100 | loss: 0.7111
+Epoch  20/100 | loss: 0.1575
+Epoch  40/100 | loss: 0.0432
+Epoch  60/100 | loss: 0.0274
+Epoch  80/100 | loss: 0.0211
+Epoch 100/100 | loss: 0.0170
+Test accuracy: 99.50%
+Training time: 0.721 s
 Demo completed successfully.
-```
-
 If CUDA is unavailable, the script **falls back to CPU** and prints a warning. This is useful for testing the Python code but **does not demonstrate GPU acceleration**.
 
 ## 7. Monitor Jetson resource use
