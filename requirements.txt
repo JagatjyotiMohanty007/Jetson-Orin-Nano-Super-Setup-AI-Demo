@@ -1,0 +1,3 @@
+# The AI demo requires PyTorch, but Jetson GPU-enabled PyTorch must be
+# installed using a build compatible with your JetPack release.
+# See README.md §5. Intentionally no generic torch pin here.
