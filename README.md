@@ -163,7 +163,7 @@ git init
 git add .
 git commit -m "Document Jetson Orin Nano Super setup and add first PyTorch AI demo"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/jetson-orin-nano-super-ai-demo.git
+git remote add origin https://github.com/JagatjyotiMohanty007/jetson-orin-nano-super-ai-demo.git
 git push -u origin main
 ```
 
