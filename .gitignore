@@ -1,12 +1,1 @@
-.venv/
-venv/
-__pycache__/
-*.py[cod]
-.ipynb_checkpoints/
-.pytest_cache/
-*.log
-*.pt
-*.pth
-*.onnx
-.env
-.DS_Store
+
